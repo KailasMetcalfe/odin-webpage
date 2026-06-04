@@ -39,7 +39,6 @@ body {
 .hero-content {
     display: flex;
     flex-direction: column;
-    flex: 1;
     gap: 10px;
 }
 
@@ -92,7 +91,7 @@ ul {
 
 .section2 {
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
 }
 
 #section-2-header {
@@ -127,9 +126,34 @@ ul {
 
 
 .section3 {
+    display: flex;
     background-color: #E5E7EB;
+
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 90px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    max-width: 650px;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+#quoter {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0;
+    font-size: 18px;
+}
 
 
 
