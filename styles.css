@@ -1,13 +1,146 @@
-.body {
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px 150px 200px;
+    gap: 90px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px; 
 }
 
 
-.section1 {
+.hero-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+#hero-p {
+    margin: 0;
+}
+
+.main-hero {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
 
 }
 
 .sign-up {
-    background-color: rgb(6, 153, 211);
+    background-color: #3882F6;
     color: white;
+    padding: 8px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+#hero-image {
+    background-color: #777F88;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 500px;
+    height: 225px;
+}
+
+
+
+.secondary-text {
+    font-size: 18px;
+    color: #d7d9db;
+}
+.main-hero,.logo {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+.section2 {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#section-2-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item-with-text {
+    max-width: 150px;
+}
+.description {
+    text-align: center;
+    margin: 0px;
+}
+.illustration {
+   width: 150px; 
+   height: 150px;
+   border-radius:18px;
+   border: solid #3882F6;
+}
+
+
+
+
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+
+
+
+
+
+
+
+.section4 {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
 }
